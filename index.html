@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Consultancy Services | Premier HR, Recruitment & AI Solutions</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="logo.svg">
-    <link rel="shortcut icon" href="logo.svg">
     
     <!-- Google Fonts & Font Awesome Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -257,8 +253,8 @@
                                 <div data-i18n="hero_metric_2_label" class="text-xs sm:text-sm text-muted font-medium mt-1">JobsDB Winner</div>
                             </div>
                             <div>
-                                <div class="text-2xl sm:text-3xl font-extrabold text-gray-900">150+</div>
-                                <div data-i18n="hero_metric_3_label" class="text-xs sm:text-sm text-muted font-medium mt-1">Corporate Clients</div>
+                                <div data-i18n="hero_metric_3_value" class="text-2xl sm:text-3xl font-extrabold text-gray-900">Multi</div>
+                                <div data-i18n="hero_metric_3_label" class="text-xs sm:text-sm text-muted font-medium mt-1">Industry Reach</div>
                             </div>
                         </div>
                     </div>
@@ -523,9 +519,9 @@
                     <!-- Contact Info & Hyper-Realistic Localized Image -->
                     <div class="lg:col-span-5 space-y-8">
                         <div class="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white group">
-                            <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                                 alt="Hong Kong city skyline" 
-                                 onerror="this.onerror=null; this.src='https://placehold.co/900x600/887270/FFFFFF?text=Hong+Kong';"
+                            <img src="https://images.unsplash.com/photo-1507941094038-6b83f0868f0b?auto=format&fit=crop&w=900&q=80" 
+                                 alt="Victoria Harbour sunset in Hong Kong" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/900x600/887270/FFFFFF?text=Victoria+Harbour+Sunset';"
                                  class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                             <div class="absolute bottom-4 left-4 text-white">
@@ -846,7 +842,8 @@
                 hero_cta_story: "Discover Our Story",
                 hero_metric_1_label: "Placement Match Rate",
                 hero_metric_2_label: "JobsDB Winner",
-                hero_metric_3_label: "Corporate Clients",
+                hero_metric_3_value: "Multi",
+                hero_metric_3_label: "Industry Reach",
                 hero_card_tag: "Executive Collaboration",
                 hero_card_desc: "Connecting visionary organizations with world-class talent.",
                 badge_1_title: "Recognised Leadership",
@@ -962,7 +959,8 @@
                 hero_cta_story: "了解我們的故事",
                 hero_metric_1_label: "職位匹配成功率",
                 hero_metric_2_label: "JobsDB 大獎得主",
-                hero_metric_3_label: "企業客戶數量",
+                hero_metric_3_value: "跨",
+                hero_metric_3_label: "行業覆蓋",
                 hero_card_tag: "高管協作",
                 hero_card_desc: "連接具遠見的企業與世界級頂尖人才。",
                 badge_1_title: "業界認可領導力",
@@ -1481,7 +1479,7 @@
             }
         }
 
-        // --- MOBILE MENU TOGGLE LOGIC --- //
+        // --- MOBILE MENU TOGGLE LOGIC (FIX) --- //
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         const menuIcon = document.getElementById('menu-icon');
